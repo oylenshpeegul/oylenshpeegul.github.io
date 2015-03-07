@@ -1,6 +1,14 @@
 .matrix{
-    width:600px;
+    /* width:600px; */
     overflow:hidden;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 600px;
+	margin-top: -300px; /* Half the height */
+	margin-left: -300px; /* Half the width */
 }
 
 .cell {
@@ -15,3 +23,4 @@
     padding:5px;
     left:-1px;
 }
+
